@@ -1,0 +1,954 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		283CE8DF1D9A4B8B00162A01 /* PCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 283CE8DE1D9A4B8B00162A01 /* PCHomeViewController.m */; };
+		283CE8E21D9A4B9900162A01 /* PCLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 283CE8E11D9A4B9900162A01 /* PCLiveViewController.m */; };
+		283CE8E51D9A4BA200162A01 /* PCMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 283CE8E41D9A4BA200162A01 /* PCMyViewController.m */; };
+		283CE8E81D9A5C7400162A01 /* MFYaYuan.otf in Resources */ = {isa = PBXBuildFile; fileRef = 283CE8E71D9A5C7400162A01 /* MFYaYuan.otf */; };
+		28534DCD1DA8BFC700AE6E26 /* 方正正黑简体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28534DCC1DA8BFC700AE6E26 /* 方正正黑简体.ttf */; };
+		28534DD11DA8DBC300AE6E26 /* UIImage+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 28534DD01DA8DBC300AE6E26 /* UIImage+TintColor.m */; };
+		28534DD41DA8EAEE00AE6E26 /* PCTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28534DD31DA8EAEE00AE6E26 /* PCTabBarView.m */; };
+		28534DD81DA8ECE400AE6E26 /* UIButton+EdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 28534DD71DA8ECE400AE6E26 /* UIButton+EdgeInsets.m */; };
+		28534DDC1DA8FB4500AE6E26 /* UIView+FindRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28534DDB1DA8FB4500AE6E26 /* UIView+FindRootController.m */; };
+		287F4CCC1DAA285B006CA756 /* PCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287F4CCB1DAA285B006CA756 /* PCLoginViewController.m */; };
+		287F4CCF1DAA34DE006CA756 /* PCHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 287F4CCE1DAA34DE006CA756 /* PCHomeView.m */; };
+		288305741D9A459A00BF3ED7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 288305731D9A459A00BF3ED7 /* main.m */; };
+		2883057D1D9A459A00BF3ED7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2883057B1D9A459A00BF3ED7 /* Main.storyboard */; };
+		2883057F1D9A459A00BF3ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2883057E1D9A459A00BF3ED7 /* Assets.xcassets */; };
+		288305821D9A459A00BF3ED7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288305801D9A459A00BF3ED7 /* LaunchScreen.storyboard */; };
+		2883058D1D9A459B00BF3ED7 /* PodcastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2883058C1D9A459B00BF3ED7 /* PodcastTests.m */; };
+		288305981D9A459B00BF3ED7 /* PodcastUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 288305971D9A459B00BF3ED7 /* PodcastUITests.m */; };
+		2893BB2A1D9A462A00D755DE /* PCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2893BB101D9A462A00D755DE /* PCAppDelegate.m */; };
+		2893BB2B1D9A462A00D755DE /* PCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2893BB151D9A462A00D755DE /* PCBaseViewController.m */; };
+		2893BB2C1D9A462A00D755DE /* PCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2893BB171D9A462A00D755DE /* PCNavigationController.m */; };
+		2893BB2D1D9A462A00D755DE /* PCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2893BB1F1D9A462A00D755DE /* PCTabBarViewController.m */; };
+		28B3B1491D9D107E0069341B /* PCBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B3B1481D9D107E0069341B /* PCBaseView.m */; };
+		28B3B14C1D9D11B40069341B /* PCMyHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B3B14B1D9D11B40069341B /* PCMyHeadView.m */; };
+		28B3B1501D9D142A0069341B /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B3B14F1D9D142A0069341B /* UIImage+ImageEffects.m */; };
+		28B3B1531D9D943B0069341B /* PCMyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B3B1521D9D943B0069341B /* PCMyView.m */; };
+		28B3B1591D9D96380069341B /* PCBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B3B1581D9D96380069341B /* PCBaseModel.m */; };
+		28B3B15C1D9D96720069341B /* PCMyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B3B15B1D9D96720069341B /* PCMyModel.m */; };
+		2F933B9C15B843941BF9AF29 /* libPods-Podcast.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96EF571ACD0456CB6DDAA131 /* libPods-Podcast.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		288305891D9A459B00BF3ED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 288305671D9A459A00BF3ED7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2883056E1D9A459A00BF3ED7;
+			remoteInfo = Podcast;
+		};
+		288305941D9A459B00BF3ED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 288305671D9A459A00BF3ED7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2883056E1D9A459A00BF3ED7;
+			remoteInfo = Podcast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		283CE8DD1D9A4B8B00162A01 /* PCHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCHomeViewController.h; sourceTree = "<group>"; };
+		283CE8DE1D9A4B8B00162A01 /* PCHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCHomeViewController.m; sourceTree = "<group>"; };
+		283CE8E01D9A4B9900162A01 /* PCLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCLiveViewController.h; sourceTree = "<group>"; };
+		283CE8E11D9A4B9900162A01 /* PCLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCLiveViewController.m; sourceTree = "<group>"; };
+		283CE8E31D9A4BA200162A01 /* PCMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMyViewController.h; sourceTree = "<group>"; };
+		283CE8E41D9A4BA200162A01 /* PCMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMyViewController.m; sourceTree = "<group>"; };
+		283CE8E71D9A5C7400162A01 /* MFYaYuan.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MFYaYuan.otf; sourceTree = "<group>"; };
+		28534DCC1DA8BFC700AE6E26 /* 方正正黑简体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "方正正黑简体.ttf"; sourceTree = "<group>"; };
+		28534DCF1DA8DBC300AE6E26 /* UIImage+TintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TintColor.h"; sourceTree = "<group>"; };
+		28534DD01DA8DBC300AE6E26 /* UIImage+TintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TintColor.m"; sourceTree = "<group>"; };
+		28534DD21DA8EAEE00AE6E26 /* PCTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCTabBarView.h; sourceTree = "<group>"; };
+		28534DD31DA8EAEE00AE6E26 /* PCTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCTabBarView.m; sourceTree = "<group>"; };
+		28534DD61DA8ECE400AE6E26 /* UIButton+EdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EdgeInsets.h"; sourceTree = "<group>"; };
+		28534DD71DA8ECE400AE6E26 /* UIButton+EdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EdgeInsets.m"; sourceTree = "<group>"; };
+		28534DDA1DA8FB4500AE6E26 /* UIView+FindRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FindRootController.h"; sourceTree = "<group>"; };
+		28534DDB1DA8FB4500AE6E26 /* UIView+FindRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FindRootController.m"; sourceTree = "<group>"; };
+		287F4CCA1DAA285B006CA756 /* PCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCLoginViewController.h; sourceTree = "<group>"; };
+		287F4CCB1DAA285B006CA756 /* PCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCLoginViewController.m; sourceTree = "<group>"; };
+		287F4CCD1DAA34DE006CA756 /* PCHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCHomeView.h; sourceTree = "<group>"; };
+		287F4CCE1DAA34DE006CA756 /* PCHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCHomeView.m; sourceTree = "<group>"; };
+		2883056F1D9A459A00BF3ED7 /* Podcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Podcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		288305731D9A459A00BF3ED7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2883057C1D9A459A00BF3ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2883057E1D9A459A00BF3ED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		288305811D9A459A00BF3ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		288305831D9A459B00BF3ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288305881D9A459B00BF3ED7 /* PodcastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodcastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2883058C1D9A459B00BF3ED7 /* PodcastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodcastTests.m; sourceTree = "<group>"; };
+		2883058E1D9A459B00BF3ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288305931D9A459B00BF3ED7 /* PodcastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodcastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		288305971D9A459B00BF3ED7 /* PodcastUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodcastUITests.m; sourceTree = "<group>"; };
+		288305991D9A459B00BF3ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2893BB0F1D9A462A00D755DE /* PCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCAppDelegate.h; sourceTree = "<group>"; };
+		2893BB101D9A462A00D755DE /* PCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCAppDelegate.m; sourceTree = "<group>"; };
+		2893BB141D9A462A00D755DE /* PCBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCBaseViewController.h; sourceTree = "<group>"; };
+		2893BB151D9A462A00D755DE /* PCBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCBaseViewController.m; sourceTree = "<group>"; };
+		2893BB161D9A462A00D755DE /* PCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCNavigationController.h; sourceTree = "<group>"; };
+		2893BB171D9A462A00D755DE /* PCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCNavigationController.m; sourceTree = "<group>"; };
+		2893BB1E1D9A462A00D755DE /* PCTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCTabBarViewController.h; sourceTree = "<group>"; };
+		2893BB1F1D9A462A00D755DE /* PCTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCTabBarViewController.m; sourceTree = "<group>"; };
+		2893BB211D9A462A00D755DE /* PCConst.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCConst.pch; sourceTree = "<group>"; };
+		2893BB221D9A462A00D755DE /* PCMainDefine.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMainDefine.pch; sourceTree = "<group>"; };
+		2893BB231D9A462A00D755DE /* PCMainHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMainHeader.pch; sourceTree = "<group>"; };
+		28B3B1471D9D107E0069341B /* PCBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCBaseView.h; sourceTree = "<group>"; };
+		28B3B1481D9D107E0069341B /* PCBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCBaseView.m; sourceTree = "<group>"; };
+		28B3B14A1D9D11B40069341B /* PCMyHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMyHeadView.h; sourceTree = "<group>"; };
+		28B3B14B1D9D11B40069341B /* PCMyHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMyHeadView.m; sourceTree = "<group>"; };
+		28B3B14E1D9D142A0069341B /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		28B3B14F1D9D142A0069341B /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		28B3B1511D9D943B0069341B /* PCMyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMyView.h; sourceTree = "<group>"; };
+		28B3B1521D9D943B0069341B /* PCMyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMyView.m; sourceTree = "<group>"; };
+		28B3B1571D9D96380069341B /* PCBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCBaseModel.h; sourceTree = "<group>"; };
+		28B3B1581D9D96380069341B /* PCBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCBaseModel.m; sourceTree = "<group>"; };
+		28B3B15A1D9D96720069341B /* PCMyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMyModel.h; sourceTree = "<group>"; };
+		28B3B15B1D9D96720069341B /* PCMyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMyModel.m; sourceTree = "<group>"; };
+		5313F589994247CE24252663 /* libPods-PodcastTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PodcastTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7EB977ABE02C38D419E595 /* Pods-Podcast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Podcast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Podcast/Pods-Podcast.debug.xcconfig"; sourceTree = "<group>"; };
+		96EF571ACD0456CB6DDAA131 /* libPods-Podcast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Podcast.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C69BDC97BEB3BD6FDBC6EE /* Pods-Podcast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Podcast.release.xcconfig"; path = "Pods/Target Support Files/Pods-Podcast/Pods-Podcast.release.xcconfig"; sourceTree = "<group>"; };
+		AC110EDC5CBF681CF78D411A /* libPods-PodcastUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PodcastUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2883056C1D9A459A00BF3ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F933B9C15B843941BF9AF29 /* libPods-Podcast.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288305851D9A459B00BF3ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288305901D9A459B00BF3ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		283CE8E61D9A5C6900162A01 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				28534DCC1DA8BFC700AE6E26 /* 方正正黑简体.ttf */,
+				283CE8E71D9A5C7400162A01 /* MFYaYuan.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		28534DCE1DA8DBB900AE6E26 /* UIImage+TintColor */ = {
+			isa = PBXGroup;
+			children = (
+				28534DCF1DA8DBC300AE6E26 /* UIImage+TintColor.h */,
+				28534DD01DA8DBC300AE6E26 /* UIImage+TintColor.m */,
+			);
+			path = "UIImage+TintColor";
+			sourceTree = "<group>";
+		};
+		28534DD51DA8ECDA00AE6E26 /* UIButton+EdgeInsets */ = {
+			isa = PBXGroup;
+			children = (
+				28534DD61DA8ECE400AE6E26 /* UIButton+EdgeInsets.h */,
+				28534DD71DA8ECE400AE6E26 /* UIButton+EdgeInsets.m */,
+			);
+			path = "UIButton+EdgeInsets";
+			sourceTree = "<group>";
+		};
+		28534DD91DA8FB4500AE6E26 /* UIView+FindRootController */ = {
+			isa = PBXGroup;
+			children = (
+				28534DDA1DA8FB4500AE6E26 /* UIView+FindRootController.h */,
+				28534DDB1DA8FB4500AE6E26 /* UIView+FindRootController.m */,
+			);
+			path = "UIView+FindRootController";
+			sourceTree = "<group>";
+		};
+		287F4CC91DAA2838006CA756 /* PCLogin(登录) */ = {
+			isa = PBXGroup;
+			children = (
+				287F4CCA1DAA285B006CA756 /* PCLoginViewController.h */,
+				287F4CCB1DAA285B006CA756 /* PCLoginViewController.m */,
+			);
+			path = "PCLogin(登录)";
+			sourceTree = "<group>";
+		};
+		288305661D9A459A00BF3ED7 = {
+			isa = PBXGroup;
+			children = (
+				288305711D9A459A00BF3ED7 /* Podcast */,
+				2883058B1D9A459B00BF3ED7 /* PodcastTests */,
+				288305961D9A459B00BF3ED7 /* PodcastUITests */,
+				288305701D9A459A00BF3ED7 /* Products */,
+				7055E5DD9219606D89A6C463 /* Pods */,
+				B186E5C082281B94D4C82D76 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		288305701D9A459A00BF3ED7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2883056F1D9A459A00BF3ED7 /* Podcast.app */,
+				288305881D9A459B00BF3ED7 /* PodcastTests.xctest */,
+				288305931D9A459B00BF3ED7 /* PodcastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		288305711D9A459A00BF3ED7 /* Podcast */ = {
+			isa = PBXGroup;
+			children = (
+				2893BB0C1D9A462A00D755DE /* Class */,
+				2893BB281D9A462A00D755DE /* Resource */,
+				288305721D9A459A00BF3ED7 /* Supporting Files */,
+			);
+			path = Podcast;
+			sourceTree = "<group>";
+		};
+		288305721D9A459A00BF3ED7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2883057B1D9A459A00BF3ED7 /* Main.storyboard */,
+				2883057E1D9A459A00BF3ED7 /* Assets.xcassets */,
+				288305801D9A459A00BF3ED7 /* LaunchScreen.storyboard */,
+				288305831D9A459B00BF3ED7 /* Info.plist */,
+				288305731D9A459A00BF3ED7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2883058B1D9A459B00BF3ED7 /* PodcastTests */ = {
+			isa = PBXGroup;
+			children = (
+				2883058C1D9A459B00BF3ED7 /* PodcastTests.m */,
+				2883058E1D9A459B00BF3ED7 /* Info.plist */,
+			);
+			path = PodcastTests;
+			sourceTree = "<group>";
+		};
+		288305961D9A459B00BF3ED7 /* PodcastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				288305971D9A459B00BF3ED7 /* PodcastUITests.m */,
+				288305991D9A459B00BF3ED7 /* Info.plist */,
+			);
+			path = PodcastUITests;
+			sourceTree = "<group>";
+		};
+		2893BB0C1D9A462A00D755DE /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				2893BB0D1D9A462A00D755DE /* AppDelegate */,
+				2893BB111D9A462A00D755DE /* Category(分类) */,
+				2893BB121D9A462A00D755DE /* Controller(控制器) */,
+				2893BB201D9A462A00D755DE /* Define(定义) */,
+				2893BB241D9A462A00D755DE /* Model(模型) */,
+				2893BB251D9A462A00D755DE /* Utils(工具) */,
+				2893BB261D9A462A00D755DE /* Vender(三方) */,
+				2893BB271D9A462A00D755DE /* View(视图) */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		2893BB0D1D9A462A00D755DE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2893BB0F1D9A462A00D755DE /* PCAppDelegate.h */,
+				2893BB101D9A462A00D755DE /* PCAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2893BB111D9A462A00D755DE /* Category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				28534DD51DA8ECDA00AE6E26 /* UIButton+EdgeInsets */,
+				28534DCE1DA8DBB900AE6E26 /* UIImage+TintColor */,
+				28B3B14D1D9D141E0069341B /* UIImage+ImageEffects */,
+			);
+			path = "Category(分类)";
+			sourceTree = "<group>";
+		};
+		2893BB121D9A462A00D755DE /* Controller(控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				2893BB181D9A462A00D755DE /* Home(首页) */,
+				2893BB191D9A462A00D755DE /* Live(直播) */,
+				2893BB1A1D9A462A00D755DE /* My(我的) */,
+				2893BB1C1D9A462A00D755DE /* Other */,
+				2893BB1D1D9A462A00D755DE /* TabBar */,
+				2893BB131D9A462A00D755DE /* Base */,
+			);
+			path = "Controller(控制器)";
+			sourceTree = "<group>";
+		};
+		2893BB131D9A462A00D755DE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2893BB141D9A462A00D755DE /* PCBaseViewController.h */,
+				2893BB151D9A462A00D755DE /* PCBaseViewController.m */,
+				2893BB161D9A462A00D755DE /* PCNavigationController.h */,
+				2893BB171D9A462A00D755DE /* PCNavigationController.m */,
+				28B3B1471D9D107E0069341B /* PCBaseView.h */,
+				28B3B1481D9D107E0069341B /* PCBaseView.m */,
+				28B3B1571D9D96380069341B /* PCBaseModel.h */,
+				28B3B1581D9D96380069341B /* PCBaseModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2893BB181D9A462A00D755DE /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				283CE8DD1D9A4B8B00162A01 /* PCHomeViewController.h */,
+				283CE8DE1D9A4B8B00162A01 /* PCHomeViewController.m */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		2893BB191D9A462A00D755DE /* Live(直播) */ = {
+			isa = PBXGroup;
+			children = (
+				283CE8E01D9A4B9900162A01 /* PCLiveViewController.h */,
+				283CE8E11D9A4B9900162A01 /* PCLiveViewController.m */,
+			);
+			path = "Live(直播)";
+			sourceTree = "<group>";
+		};
+		2893BB1A1D9A462A00D755DE /* My(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				287F4CC91DAA2838006CA756 /* PCLogin(登录) */,
+				283CE8E31D9A4BA200162A01 /* PCMyViewController.h */,
+				283CE8E41D9A4BA200162A01 /* PCMyViewController.m */,
+			);
+			path = "My(我的)";
+			sourceTree = "<group>";
+		};
+		2893BB1C1D9A462A00D755DE /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2893BB1D1D9A462A00D755DE /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2893BB1E1D9A462A00D755DE /* PCTabBarViewController.h */,
+				2893BB1F1D9A462A00D755DE /* PCTabBarViewController.m */,
+				28534DD21DA8EAEE00AE6E26 /* PCTabBarView.h */,
+				28534DD31DA8EAEE00AE6E26 /* PCTabBarView.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		2893BB201D9A462A00D755DE /* Define(定义) */ = {
+			isa = PBXGroup;
+			children = (
+				2893BB211D9A462A00D755DE /* PCConst.pch */,
+				2893BB221D9A462A00D755DE /* PCMainDefine.pch */,
+				2893BB231D9A462A00D755DE /* PCMainHeader.pch */,
+			);
+			path = "Define(定义)";
+			sourceTree = "<group>";
+		};
+		2893BB241D9A462A00D755DE /* Model(模型) */ = {
+			isa = PBXGroup;
+			children = (
+				28B3B1541D9D961C0069341B /* Home(首页) */,
+				28B3B1551D9D961C0069341B /* Live(直播) */,
+				28B3B1561D9D961C0069341B /* My(我的) */,
+			);
+			path = "Model(模型)";
+			sourceTree = "<group>";
+		};
+		2893BB251D9A462A00D755DE /* Utils(工具) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Utils(工具)";
+			sourceTree = "<group>";
+		};
+		2893BB261D9A462A00D755DE /* Vender(三方) */ = {
+			isa = PBXGroup;
+			children = (
+				28534DD91DA8FB4500AE6E26 /* UIView+FindRootController */,
+			);
+			path = "Vender(三方)";
+			sourceTree = "<group>";
+		};
+		2893BB271D9A462A00D755DE /* View(视图) */ = {
+			isa = PBXGroup;
+			children = (
+				28B3B1411D9D0FEE0069341B /* Home(首页) */,
+				28B3B1421D9D0FEE0069341B /* Live(直播) */,
+				28B3B1431D9D0FEE0069341B /* My(我的) */,
+			);
+			path = "View(视图)";
+			sourceTree = "<group>";
+		};
+		2893BB281D9A462A00D755DE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				283CE8E61D9A5C6900162A01 /* Font */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		28B3B1411D9D0FEE0069341B /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				287F4CCD1DAA34DE006CA756 /* PCHomeView.h */,
+				287F4CCE1DAA34DE006CA756 /* PCHomeView.m */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		28B3B1421D9D0FEE0069341B /* Live(直播) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Live(直播)";
+			sourceTree = "<group>";
+		};
+		28B3B1431D9D0FEE0069341B /* My(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				28B3B1511D9D943B0069341B /* PCMyView.h */,
+				28B3B1521D9D943B0069341B /* PCMyView.m */,
+				28B3B14A1D9D11B40069341B /* PCMyHeadView.h */,
+				28B3B14B1D9D11B40069341B /* PCMyHeadView.m */,
+			);
+			path = "My(我的)";
+			sourceTree = "<group>";
+		};
+		28B3B14D1D9D141E0069341B /* UIImage+ImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				28B3B14E1D9D142A0069341B /* UIImage+ImageEffects.h */,
+				28B3B14F1D9D142A0069341B /* UIImage+ImageEffects.m */,
+			);
+			path = "UIImage+ImageEffects";
+			sourceTree = "<group>";
+		};
+		28B3B1541D9D961C0069341B /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		28B3B1551D9D961C0069341B /* Live(直播) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Live(直播)";
+			sourceTree = "<group>";
+		};
+		28B3B1561D9D961C0069341B /* My(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				28B3B15A1D9D96720069341B /* PCMyModel.h */,
+				28B3B15B1D9D96720069341B /* PCMyModel.m */,
+			);
+			path = "My(我的)";
+			sourceTree = "<group>";
+		};
+		7055E5DD9219606D89A6C463 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A7EB977ABE02C38D419E595 /* Pods-Podcast.debug.xcconfig */,
+				A7C69BDC97BEB3BD6FDBC6EE /* Pods-Podcast.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B186E5C082281B94D4C82D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96EF571ACD0456CB6DDAA131 /* libPods-Podcast.a */,
+				5313F589994247CE24252663 /* libPods-PodcastTests.a */,
+				AC110EDC5CBF681CF78D411A /* libPods-PodcastUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2883056E1D9A459A00BF3ED7 /* Podcast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2883059C1D9A459B00BF3ED7 /* Build configuration list for PBXNativeTarget "Podcast" */;
+			buildPhases = (
+				5B8979C3D59CEEAC78752AF3 /* [CP] Check Pods Manifest.lock */,
+				2883056B1D9A459A00BF3ED7 /* Sources */,
+				2883056C1D9A459A00BF3ED7 /* Frameworks */,
+				2883056D1D9A459A00BF3ED7 /* Resources */,
+				CC3D91C1AEA978F6E21EB654 /* [CP] Embed Pods Frameworks */,
+				E54297AC7F6C36EF02C034B0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Podcast;
+			productName = Podcast;
+			productReference = 2883056F1D9A459A00BF3ED7 /* Podcast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		288305871D9A459B00BF3ED7 /* PodcastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2883059F1D9A459B00BF3ED7 /* Build configuration list for PBXNativeTarget "PodcastTests" */;
+			buildPhases = (
+				288305841D9A459B00BF3ED7 /* Sources */,
+				288305851D9A459B00BF3ED7 /* Frameworks */,
+				288305861D9A459B00BF3ED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2883058A1D9A459B00BF3ED7 /* PBXTargetDependency */,
+			);
+			name = PodcastTests;
+			productName = PodcastTests;
+			productReference = 288305881D9A459B00BF3ED7 /* PodcastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		288305921D9A459B00BF3ED7 /* PodcastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288305A21D9A459B00BF3ED7 /* Build configuration list for PBXNativeTarget "PodcastUITests" */;
+			buildPhases = (
+				2883058F1D9A459B00BF3ED7 /* Sources */,
+				288305901D9A459B00BF3ED7 /* Frameworks */,
+				288305911D9A459B00BF3ED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				288305951D9A459B00BF3ED7 /* PBXTargetDependency */,
+			);
+			name = PodcastUITests;
+			productName = PodcastUITests;
+			productReference = 288305931D9A459B00BF3ED7 /* PodcastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		288305671D9A459A00BF3ED7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Liszt;
+				TargetAttributes = {
+					2883056E1D9A459A00BF3ED7 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WQ25C5R45W;
+					};
+					288305871D9A459B00BF3ED7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2883056E1D9A459A00BF3ED7;
+					};
+					288305921D9A459B00BF3ED7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2883056E1D9A459A00BF3ED7;
+					};
+				};
+			};
+			buildConfigurationList = 2883056A1D9A459A00BF3ED7 /* Build configuration list for PBXProject "Podcast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 288305661D9A459A00BF3ED7;
+			productRefGroup = 288305701D9A459A00BF3ED7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2883056E1D9A459A00BF3ED7 /* Podcast */,
+				288305871D9A459B00BF3ED7 /* PodcastTests */,
+				288305921D9A459B00BF3ED7 /* PodcastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2883056D1D9A459A00BF3ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288305821D9A459A00BF3ED7 /* LaunchScreen.storyboard in Resources */,
+				283CE8E81D9A5C7400162A01 /* MFYaYuan.otf in Resources */,
+				28534DCD1DA8BFC700AE6E26 /* 方正正黑简体.ttf in Resources */,
+				2883057F1D9A459A00BF3ED7 /* Assets.xcassets in Resources */,
+				2883057D1D9A459A00BF3ED7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288305861D9A459B00BF3ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288305911D9A459B00BF3ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B8979C3D59CEEAC78752AF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC3D91C1AEA978F6E21EB654 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Podcast/Pods-Podcast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E54297AC7F6C36EF02C034B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Podcast/Pods-Podcast-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2883056B1D9A459A00BF3ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2893BB2A1D9A462A00D755DE /* PCAppDelegate.m in Sources */,
+				2893BB2D1D9A462A00D755DE /* PCTabBarViewController.m in Sources */,
+				28B3B1591D9D96380069341B /* PCBaseModel.m in Sources */,
+				28534DD41DA8EAEE00AE6E26 /* PCTabBarView.m in Sources */,
+				2893BB2C1D9A462A00D755DE /* PCNavigationController.m in Sources */,
+				287F4CCC1DAA285B006CA756 /* PCLoginViewController.m in Sources */,
+				28534DDC1DA8FB4500AE6E26 /* UIView+FindRootController.m in Sources */,
+				28B3B14C1D9D11B40069341B /* PCMyHeadView.m in Sources */,
+				28B3B1501D9D142A0069341B /* UIImage+ImageEffects.m in Sources */,
+				28B3B15C1D9D96720069341B /* PCMyModel.m in Sources */,
+				28B3B1531D9D943B0069341B /* PCMyView.m in Sources */,
+				2893BB2B1D9A462A00D755DE /* PCBaseViewController.m in Sources */,
+				283CE8DF1D9A4B8B00162A01 /* PCHomeViewController.m in Sources */,
+				288305741D9A459A00BF3ED7 /* main.m in Sources */,
+				283CE8E21D9A4B9900162A01 /* PCLiveViewController.m in Sources */,
+				28534DD81DA8ECE400AE6E26 /* UIButton+EdgeInsets.m in Sources */,
+				28B3B1491D9D107E0069341B /* PCBaseView.m in Sources */,
+				283CE8E51D9A4BA200162A01 /* PCMyViewController.m in Sources */,
+				287F4CCF1DAA34DE006CA756 /* PCHomeView.m in Sources */,
+				28534DD11DA8DBC300AE6E26 /* UIImage+TintColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288305841D9A459B00BF3ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2883058D1D9A459B00BF3ED7 /* PodcastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2883058F1D9A459B00BF3ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288305981D9A459B00BF3ED7 /* PodcastUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2883058A1D9A459B00BF3ED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2883056E1D9A459A00BF3ED7 /* Podcast */;
+			targetProxy = 288305891D9A459B00BF3ED7 /* PBXContainerItemProxy */;
+		};
+		288305951D9A459B00BF3ED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2883056E1D9A459A00BF3ED7 /* Podcast */;
+			targetProxy = 288305941D9A459B00BF3ED7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2883057B1D9A459A00BF3ED7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2883057C1D9A459A00BF3ED7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		288305801D9A459A00BF3ED7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288305811D9A459A00BF3ED7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2883059A1D9A459B00BF3ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2883059B1D9A459B00BF3ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2883059D1D9A459B00BF3ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7EB977ABE02C38D419E595 /* Pods-Podcast.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				GCC_PREFIX_HEADER = "/Users/lester/Documents/开发记录/车当当Demo/Podcast/Podcast/Class/Define(定义)/PCMainHeader.pch";
+				INFOPLIST_FILE = Podcast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.Podcast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2883059E1D9A459B00BF3ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7C69BDC97BEB3BD6FDBC6EE /* Pods-Podcast.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				GCC_PREFIX_HEADER = "/Users/lester/Documents/开发记录/车当当Demo/Podcast/Podcast/Class/Define(定义)/PCMainHeader.pch";
+				INFOPLIST_FILE = Podcast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.Podcast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		288305A01D9A459B00BF3ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PodcastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.PodcastTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Podcast.app/Podcast";
+			};
+			name = Debug;
+		};
+		288305A11D9A459B00BF3ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PodcastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.PodcastTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Podcast.app/Podcast";
+			};
+			name = Release;
+		};
+		288305A31D9A459B00BF3ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PodcastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.PodcastUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Podcast;
+			};
+			name = Debug;
+		};
+		288305A41D9A459B00BF3ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PodcastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.PodcastUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Podcast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2883056A1D9A459A00BF3ED7 /* Build configuration list for PBXProject "Podcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2883059A1D9A459B00BF3ED7 /* Debug */,
+				2883059B1D9A459B00BF3ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2883059C1D9A459B00BF3ED7 /* Build configuration list for PBXNativeTarget "Podcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2883059D1D9A459B00BF3ED7 /* Debug */,
+				2883059E1D9A459B00BF3ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2883059F1D9A459B00BF3ED7 /* Build configuration list for PBXNativeTarget "PodcastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288305A01D9A459B00BF3ED7 /* Debug */,
+				288305A11D9A459B00BF3ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288305A21D9A459B00BF3ED7 /* Build configuration list for PBXNativeTarget "PodcastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288305A31D9A459B00BF3ED7 /* Debug */,
+				288305A41D9A459B00BF3ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 288305671D9A459A00BF3ED7 /* Project object */;
+}

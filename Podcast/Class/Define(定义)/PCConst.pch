@@ -1,0 +1,42 @@
+//
+//  PCConst.pch
+//  Podcast
+//
+//  Created by Lester on 16/9/27.
+//  Copyright © 2016年 Liszt. All rights reserved.
+//
+
+#ifndef PCConst_pch
+#define PCConst_pch
+/** 设备的宽高 */
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+/** App名称*/
+#define APP_NAME @"我在直播"
+
+/** 适配比例*/
+#define ADAPTER_WIDTH SCREEN_WIDTH / 375
+/** weak */
+#define WEAK_SELF __weak typeof(self)weakSelf = self;
+
+#pragma mark - Font
+/** 设置主题字体*/
+#define MAIN_FONT(fontSize) [UIFont fontWithName:@"FZZhengHeiS-R-GB" size:fontSize]
+
+#pragma mark - Color
+/** RGBA*/
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.f green:g/255.f blue:b/255.f alpha:a]
+/** 随机颜色数组*/
+#define RandomColor_Array @[RGBA(255, 91, 11, 1),RGBA(72, 165, 250, 1),RGBA(255, 162, 37, 1)]
+#define RandomColor RandomColor_Array[arc4random_uniform(3)]
+/** 主颜色*/
+#define Main_TintColor RGBA(255,68,0,1)
+/** 导航栏颜色*/
+#define Nav_Color RGBA(255,255,255,1) // RGBA(37,37,53,1) 
+
+#pragma mark - UIImage
+/** 获取Image*/
+#define IMAGE_NAMED(NAME) [UIImage imageNamed:NAME]
+
+#endif /* PCConst_pch */

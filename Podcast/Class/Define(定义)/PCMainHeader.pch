@@ -1,0 +1,26 @@
+//
+//  PCMainHeader.pch
+//  Podcast
+//
+//  Created by Lester on 16/9/27.
+//  Copyright © 2016年 Liszt. All rights reserved.
+//
+
+#ifndef PCMainHeader_pch
+#define PCMainHeader_pch
+
+#import "PCMainDefine.pch"
+#import "PCConst.pch"
+#import <SDAutoLayout.h>
+#import "UIImage+TintColor.h"
+#import "UIButton+EdgeInsets.h"
+#import "UIView+FindRootController.h"
+
+#import "PCHomeViewController.h"
+#import "PCLiveViewController.h"
+#import "PCMyViewController.h"
+#import "PCNavigationController.h"
+#import "PCTabBarViewController.h"
+
+
+#endif /* PCMainHeader_pch */
